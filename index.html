@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Test - QA That Keeps Releases Green</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="greentest.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bio-bg"></div>
+    <div class="organic-shapes">
+        <div class="leaf leaf-1"></div>
+        <div class="leaf leaf-2"></div>
+        <div class="leaf leaf-3"></div>
+    </div>
+    <div class="particle-system" id="particleSystem"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                <div class="logo-icon"></div>
+                <span class="logo-text">Green Test</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#features" class="nav-link">Features</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>QA That Turns Every Release Green</h1>
+                <p>Green Test hunts down defects early, clears blockers fast, and keeps every release dashboard glowing green. We blend expert testers with automation to make your applications clean, stable, and production ready.</p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-primary">
+                        🌱 Explore QA Stack
+                    </a>
+                    <a href="#about" class="btn btn-secondary">
+                        📖 Meet Green Test
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="bio-sphere">
+                    <div class="rotating-text">
+                        <div class="text-circle">END TO END TESTING</div>
+                        <div class="text-circle">AUTOMATION | COVERAGE</div>
+                        <div class="text-circle">PERFORMANCE | SECURITY</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stat-item">
+                <h3>98%</h3>
+                <p>Critical bugs eliminated pre-release</p>
+            </div>
+            <div class="stat-item">
+                <h3>2.5M+</h3>
+                <p>Automated tests executed yearly</p>
+            </div>
+            <div class="stat-item">
+                <h3>150+</h3>
+                <p>QA specialists on demand</p>
+            </div>
+            <div class="stat-item">
+                <h3>24/7</h3>
+                <p>Release watch and triage coverage</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2 class="section-title">QA Intelligence Hub</h2>
+        <div class="features-showcase">
+            <div class="feature-navigation">
+                <div class="nav-item active" data-feature="ecosystems">
+                    <div class="nav-item-icon">🌿</div>
+                    <div class="nav-item-content">
+                        <h4>Bug Radar</h4>
+                        <p>AI defect prediction and live triage</p>
+                    </div>
+                </div>
+                <div class="nav-item" data-feature="circular">
+                    <div class="nav-item-icon">♻️</div>
+                    <div class="nav-item-content">
+                        <h4>Regression Shield</h4>
+                        <p>Reusable suites that stay evergreen</p>
+                    </div>
+                </div>
+                <div class="nav-item" data-feature="bioenergy">
+                    <div class="nav-item-icon">🔋</div>
+                    <div class="nav-item-content">
+                        <h4>Coverage Grid</h4>
+                        <p>Full-stack automation you can trust</p>
+                    </div>
+                </div>
+                <div class="nav-item" data-feature="networks">
+                    <div class="nav-item-icon">🌊</div>
+                    <div class="nav-item-content">
+                        <h4>Release Command</h4>
+                        <p>Coordinated handoffs for every squad</p>
+                    </div>
+                </div>
+                <div class="nav-item" data-feature="architecture">
+                    <div class="nav-item-icon">🧬</div>
+                    <div class="nav-item-content">
+                        <h4>Self-Healing Pipelines</h4>
+                        <p>Tests recover and rerun automatically</p>
+                    </div>
+                </div>
+                <div class="nav-item" data-feature="symbiosis">
+                    <div class="nav-item-icon">🌍</div>
+                    <div class="nav-item-content">
+                        <h4>Enterprise QA Alliance</h4>
+                        <p>Shared intelligence across teams</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="feature-display">
+                <div class="feature-panel active" id="ecosystems">
+                    <div class="feature-visual">🌱</div>
+                    <h3>Bug Radar</h3>
+                    <p>Our machine learning radar inspects every build, surfaces risky code paths, and cues our engineers before production ever flickers red so the entire application turns green.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">
+                            <h5>⚡ Live Defect Watch</h5>
+                            <p>Pipeline telemetry pinpoints breaking patterns in seconds</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>🧠 Predictive Impact Maps</h5>
+                            <p>AI predicts which modules will break weeks before release</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>🔗 Unified Issue Stream</h5>
+                            <p>Aggregates logs, tickets, and coverage into one queue</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>📊 Greenlight Dashboards</h5>
+                            <p>Shows exactly how close you are to an all-green release</p>
+                        </div>
+                    </div>
+                    <a href="#" class="feature-cta">See Bug Radar →</a>
+                </div>
+                
+                <div class="feature-panel" id="circular">
+                    <div class="feature-visual">♻️</div>
+                    <h3>Regression Shield</h3>
+                    <p>Regression Shield keeps suites evergreen with reusable scripts, curated data, and automated fixes so every cycle ends with a crisp green bar.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">
+                            <h5>🔄 Suite Refactoring</h5>
+                            <p>Repairs flaky scripts automatically and retires brittle patterns</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>⚖️ Coverage Balance</h5>
+                            <p>Tracks coverage gaps and recommends focused packs</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>🎯 Noise Elimination</h5>
+                            <p>Removes redundant cases so runs stay fast and trusted</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>💰 Release Savings</h5>
+                            <p>Cuts hotfix spend by catching regressions before launch</p>
+                        </div>
+                    </div>
+                    <a href="#" class="feature-cta">Deploy Regression Shield →</a>
+                </div>
+                
+                <div class="feature-panel" id="bioenergy">
+                    <div class="feature-visual">⚡</div>
+                    <h3>Coverage Grid</h3>
+                    <p>Coverage Grid orchestrates API, UI, mobile, and data tests together so every service stays green from commit to customer.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">
+                            <h5>🌞 Scenario Depth</h5>
+                            <p>Dives beyond happy paths to validate complex journeys</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>🔋 Data Resilience</h5>
+                            <p>Keeps synthetic data sets current for every test run</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>🌱 Self-Tuning Suites</h5>
+                            <p>Learns from failures and tunes steps for the next build</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>🌍 Green Readouts</h5>
+                            <p>Reports health across layers so leaders know when apps turn green</p>
+                        </div>
+                    </div>
+                    <a href="#" class="feature-cta">Activate Coverage Grid →</a>
+                </div>
+                
+                <div class="feature-panel" id="networks">
+                    <div class="feature-visual">🌊</div>
+                    <h3>Release Command</h3>
+                    <p>Release Command choreographs testers, developers, and DevOps signals so issues are routed instantly and launches stay on schedule.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">
+                            <h5>🔄 Routing Playbooks</h5>
+                            <p>Routes issues to the right owner instantly</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>⚡ Signal Speed</h5>
+                            <p>Broadcasts failures to squads in real time</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>🛡️ Swarm Response</h5>
+                            <p>Pairs engineers and testers to swarm blockers until green</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>📈 Adaptive Staffing</h5>
+                            <p>Adds testers and environments during peak release windows</p>
+                        </div>
+                    </div>
+                    <a href="#" class="feature-cta">Command Every Release →</a>
+                </div>
+                
+                <div class="feature-panel" id="architecture">
+                    <div class="feature-visual">🧬</div>
+                    <h3>Self-Healing Pipelines</h3>
+                    <p>Self-Healing Pipelines auto-rerun suites, reallocate agents, and keep signals clean even when infrastructure gets noisy.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">
+                            <h5>🔧 Auto-Reruns</h5>
+                            <p>Reruns impacted suites and logs context automatically</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>📏 Smart Allocation</h5>
+                            <p>Shifts workloads across agents to keep builds flowing</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>🌡️ Environment Healing</h5>
+                            <p>Rebuilds broken environments before testers notice</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>🧬 Continuous Optimization</h5>
+                            <p>Learns from every run to prioritize what keeps apps green</p>
+                        </div>
+                    </div>
+                    <a href="#" class="feature-cta">Stabilize Pipelines →</a>
+                </div>
+                
+                <div class="feature-panel" id="symbiosis">
+                    <div class="feature-visual">🌍</div>
+                    <h3>Enterprise QA Alliance</h3>
+                    <p>Enterprise QA Alliance shares insights, benchmarks, and green-state scorecards across every product line.</p>
+                    <div class="feature-benefits">
+                        <div class="benefit-item">
+                            <h5>🌐 Global QA Mesh</h5>
+                            <p>Shared practices link every product area and region</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>⚖️ Green Scorecards</h5>
+                            <p>Unified scorecards show progress toward green builds</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>🤝 Shared Intelligence</h5>
+                            <p>Communities of practice exchange discoveries and tooling</p>
+                        </div>
+                        <div class="benefit-item">
+                            <h5>🌱 Enterprise Enablement</h5>
+                            <p>Playbooks and accelerators keep releases healthy everywhere</p>
+                        </div>
+                    </div>
+                    <a href="#" class="feature-cta">Join the QA Alliance →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <h2 class="section-title">About Green Test</h2>
+        
+        <!-- First Row: Animation Left, Text Right -->
+        <div class="about-content">
+            <div class="about-visual">
+                <div class="eco-visualization">
+                    <div class="growth-rings">
+                        <div class="ring"></div>
+                        <div class="ring"></div>
+                        <div class="ring"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-text">
+                <h2>Turning Bugs Into Green Lights</h2>
+                <p>Green Test is a QA studio built to identify every defect that keeps your applications from going green. We embed with your teams, trace user flows, and chase down every blocker until the dashboard is clear.</p>
+                <p>Our squads combine exploratory testers, automation engineers, and tooling experts who actively hunt, reproduce, and document bugs so your engineers can deliver confident fixes.</p>
+                <p>From AI-assisted scenario mining to real-time green-state scorecards, we continually surface the work that keeps your releases stable and environmentally clean in production.</p>
+            </div>
+        </div>
+        
+        <!-- Second Row: Text Left, Animation Right -->
+        <div class="about-content">
+            <div class="about-text">
+                <h2>QA Innovation In Action</h2>
+                <p>We mix proven frameworks with telemetry, synthetic data, and exploratory charters to find bugs minutes after code is committed.</p>
+                <p>Self-healing pipelines rerun failing suites, auto-file issues, and guide engineers toward the root cause so every fix pushes the app closer to a full-green status.</p>
+                <p>Partner with us to convert chaotic releases into predictable green deployments that customers can trust.</p>
+            </div>
+            <div class="about-visual">
+                <div class="network-visualization">
+                    <div class="network-node"></div>
+                    <div class="network-node"></div>
+                    <div class="network-node"></div>
+                    <div class="network-node"></div>
+                    <div class="network-node"></div>
+                    <div class="network-connection connection-1"></div>
+                    <div class="network-connection connection-2"></div>
+                    <div class="network-connection connection-3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2 class="section-title" style="text-align: left; margin-bottom: 40px; font-size: 2.5rem;">Let's Make Your Releases Green</h2>
+                <form id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company">Company</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Tell us about your QA goals..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">🌱 Send Message</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h3>Connect With Us</h3>
+                <div class="contact-item">
+                    <div class="contact-icon">👩‍💼</div>
+                    <div class="contact-details">
+                        <h4>Founder</h4>
+                        <p>Maimoona Rahman</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <div class="contact-details">
+                        <h4>Email</h4>
+                        <p>greentestservices@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <div class="contact-details">
+                        <h4>Phone</h4>
+                        <p>+91 97041 78500</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🌍</div>
+                    <div class="contact-details">
+                        <h4>Location</h4>
+                        <p>Hyderabad, India</p>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">⏰</div>
+                    <div class="contact-details">
+                        <h4>Support</h4>
+                        <p>Zero-downtime release coverage</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>Green Test</h3>
+                <p>QA experts who uncover every bug and guide your teams to clean, green production releases.</p>
+                <div class="social-links">
+                    <a href="#" class="social-link">📘</a>
+                    <a href="#" class="social-link">🐦</a>
+                    <a href="#" class="social-link">💼</a>
+                    <a href="#" class="social-link">📸</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4>QA Wisdom</h4>
+                <p style="font-size: 1rem; line-height: 1.6;">
+                    “Testing turns doubt into data—every bug we uncover today keeps tomorrow’s release glowing green.”
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Green Test. All rights reserved.</p>
+        </div>
+    </footer>
+<script src="greentest.js"></script>
+</body>
+</html>
